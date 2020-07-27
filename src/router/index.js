@@ -34,7 +34,7 @@ export default new VueRouter({
             //aqui van nuestras rutas anidadas
             children: [
                 {
-                    path: 'about',
+                    path: '',
                     component: AcercaDe,
                 },
                 {

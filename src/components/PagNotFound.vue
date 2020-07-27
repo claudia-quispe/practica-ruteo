@@ -1,6 +1,6 @@
 <template>
-    <div class="background">
-        <img src="@/assets/404.png" class="img-fluid" alt="Responsive image">
+    <div>
+        <img src="@/assets/error.png" class="img-fluid" alt="Responsive image">
     </div>
 </template>
 
@@ -12,13 +12,3 @@ export default {
   }
 }
 </script>
-<style>
-.img-fluid {
-    width: 700px;
-    height: 700px;
-}
-.background {
-    background-color: #FBBA33;
-}
-
-</style>

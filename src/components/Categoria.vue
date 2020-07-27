@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div>
         <h2> Listado de {{ $route.params.nombrecategoria}} </h2>
         <div class="row">
             <div class="col-sm-2">
@@ -7,13 +7,13 @@
             </div>
             <div class="col-sm-8">
                 <ul class="list-group">
-                    <li class="list-group-item">Gourmet</li>
-                    <li class="list-group-item">Deliccio</li>
-                    <li class="list-group-item">DelliStore</li>
-                    <li class="list-group-item">Barista</li>
-                    <li class="list-group-item">Taberna</li>
-                    <li class="list-group-item">Delicius</li>
-                    <li class="list-group-item">Mazzareli</li>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Hamburguesas</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Shawarma</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Papas Fritas</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Pizza</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Hamburguesa</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Papas Bravas</a>
+                    <a href="#" class="list-group-item list-group-item-action list-group-item-light">Hot-Dog</a>
                 </ul>
             </div>
             <div class="col-sm-2">

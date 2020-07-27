@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Crea tu cuenta en Trash Food!</h2>
+        <h2>Login</h2>
         <form class="form">
         <div class="form-group">
             <label for="exampleInputEmail1">Nombre de Usuario</label>
@@ -28,20 +28,3 @@ export default {
   }
 }
 </script>
-<style>
-div {
-    display: block;
-}
-.form {
-    margin: 10px 0 0;
-    display: inline-block;
-    background-color:white;
-    padding: 30px 100px ;
-    border-radius: 6px;
-    background: #ffb300;    
-}
-#exampleInputEmail1 {
-    width: 250px;
-}
-
-</style>
