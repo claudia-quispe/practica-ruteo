@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2> Listado de {{ $route.params.nombrecategoria}} </h2>
+        <h2> Listado de {{ nombrecategoria }} </h2>
         <div class="row">
             <div class="col-sm-2">
                
@@ -26,8 +26,8 @@
 <script>
 export default {
   name: 'Categoria',
-  components: {
-      //
+  props: {
+    nombrecategoria: String
   }
 }
 </script>

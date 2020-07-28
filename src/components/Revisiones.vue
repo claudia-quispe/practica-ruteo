@@ -24,8 +24,8 @@
 <script>
 export default {
   name: 'Revisiones',
-  components: {
-      //
+  props: {
+    revisiones: String
   }
 }
 </script>

@@ -7,8 +7,8 @@
 <script>
 export default {
   name: 'PagNotFound',
-  components: {
-      //
+  props: {
+    pagnotfound: String
   }
 }
 </script>

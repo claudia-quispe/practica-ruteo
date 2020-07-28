@@ -12,8 +12,8 @@
 <script>
 export default {
   name: 'AcercaDe',
-  components: {
-      //
+  props: {
+    acercade: String
   }
 }
 </script>

@@ -18,38 +18,52 @@ export default new VueRouter({
     routes: [
         {
             path: '/', 
-            component: Home
+            component: Home,
+            // acá añadimos rutas nombradas
         },
         {
             path: '/login', // acá definimos nombre de ruta 
-            component: Ingreso // acá cargamos nuestro componente
+            component: Ingreso, // acá cargamos nuestro componente
+            name: 'ingreso', // le damo un nuevo apodo a nuestra ruta
+            props:true
         },
         {
             path: '/category/:nombrecategoria', //mostrara una lista
-            component: Categoria
+            component: Categoria,
+            name: 'categoria',
+            props: true
         },
         {
             path: '/:yumyum', // :nombre -> ruta dinamica, depende de lo que uno escriba en la url
             component: Restoran,
+            name: 'restoran',
+            props: true,
             //aqui van nuestras rutas anidadas
             children: [
                 {
                     path: '',
                     component: AcercaDe,
+                    name: 'acercade',
+                    props: true
                 },
                 {
                     path: 'reviews',
                     component: Revisiones,
+                    name: 'revisiones',
+                    props: true
                 },
                 {
                     path: 'images',
                     component: Imagenes,
+                    name: 'imagenes',
+                    props: true
                 }
             ]
         },
         {
             path: '*',
-            component: PagNotFound
+            component: PagNotFound,
+            name: 'pagnotfound'
         }
     ]
 })

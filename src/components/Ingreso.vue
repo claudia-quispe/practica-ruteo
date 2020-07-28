@@ -23,8 +23,8 @@
 
 export default {
   name: 'Ingreso',
-  components: {
-    //Ingreso
+  props: {
+    ingreso: String
   }
 }
 </script>

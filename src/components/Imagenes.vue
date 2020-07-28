@@ -27,8 +27,8 @@
 <script>
 export default {
   name: 'Imagenes',
-  components: {
-      //
+  props: {
+    imagenes: String
   }
 }
 </script>
